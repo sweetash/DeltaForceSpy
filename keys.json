@@ -1,0 +1,124 @@
+{
+    "keys": [
+      {
+        "name": "地下金库储藏间",
+        "id": "1-1",
+        "base_price": 2300000,
+        "ideal_price": 2800000,
+        "position": [0.3400, 0.2500],
+        "wantBuy": 1
+      },
+      {
+        "name": "1号审讯室",
+        "id": "1-2",
+        "base_price": 889019,
+        "ideal_price": 960000,
+        "position": [0.5900, 0.2500],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅店用餐间",
+        "id": "1-3",
+        "base_price": 1400221,
+        "ideal_price": 1680000,
+        "position": [0.8400, 0.2500],
+        "wantBuy": 0
+      },
+      {
+        "name": "地下金库储藏间",
+        "id": "2-1",
+        "base_price": 2300000,
+        "ideal_price": 2800000,
+        "position": [0.3400, 0.3900],
+        "wantBuy": 0
+      },
+      {
+        "name": "总裁会议室",
+        "id": "2-2",
+        "base_price": 2686739,
+        "ideal_price": 2680000,
+        "position": [0.5900, 0.3900],
+        "wantBuy": 0
+      },
+      {
+        "name": "老浴场贵宾室",
+        "id": "2-3",
+        "base_price": 1383131,
+        "ideal_price": 1500000,
+        "position": [0.8400, 0.3900],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅店",
+        "id": "3-1",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.3400, 0.5400],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅店用",
+        "id": "3-2",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.5900, 0.5400],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅店用餐",
+        "id": "3-3",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.8400, 0.5400],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅",
+        "id": "4-1",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.3400, 0.6800],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅",
+        "id": "4-2",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.5900, 0.6800],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅店用餐",
+        "id": "4-3",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.8400, 0.6800],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅店用餐",
+        "id": "5-1",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.3400, 0.8300],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅店用餐",
+        "id": "5-2",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.5900, 0.8300],
+        "wantBuy": 0
+      },
+      {
+        "name": "旅店用餐",
+        "id": "5-3",
+        "base_price": 2072018,
+        "ideal_price": 2100000,
+        "position": [0.8400, 0.8300],
+        "wantBuy": 0
+      }
+    ]
+}
