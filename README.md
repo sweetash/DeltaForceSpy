@@ -27,8 +27,8 @@
 ### 安装
 1. 下载本代码,安装requirement.txt
 2. 安装[tesseract](https://github.com/tesseract-ocr/tesseract )
-3. 下载[tesseract中文识别库](https://github.com/tesseract-ocr/tessdata)
-4. 修改代码中的环境变量为本机安装的位置
+3. 下载[tesseract中文识别库](https://github.com/tesseract-ocr/tessdata) （可在上一步安装时选择安装中文识别库）
+4. 修改代码中的环境变量为本机安装的位置，默认为C,若更改安装位置需要自行修改以下代码：
 ```
 # Tesseract 环境配置
 os.environ["LANGDATA_PATH"] = r"C:\Program Files\Tesseract-OCR\tessdata"
