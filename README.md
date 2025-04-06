@@ -1,6 +1,12 @@
 # 免责声明
 免责声明
 脚本仅供学习和研究目的使用，作者不对因使用该脚本而导致的任何后果负责。使用该脚本的风险完全由用户自行承担。
+本脚本原创来自@sheldon1998：https://github.com/sheldon1998/DeltaForceKeyBot
+经本人优化更新后发布增加了以下功能：
+·记录每次刷卡的价格保存到excel
+·自定义每次点击的间隔时间
+·设置购买的次数
+
 
 用户须知：
 
@@ -8,7 +14,7 @@
 使用该脚本可能导致账号被封禁或其他形式的处罚。
 
 作者不保证脚本的稳定性、安全性或合法性。
-# DeltaForceKeyBot
+# DeltaForceSpy
 三角洲行动拍卖行自动挂卡工具(单三跑刀巴克什匹配实在太久,所以利用匹配时间进行补卡),通过ocr+模拟鼠标点击实现自动购买钥匙卡
 项目默认只配置了交易行>钥匙>巴克什 页面的的部分钥匙坐标数据,如有其他地图的钥匙可以将钥匙添加到收藏，然后通过debug.py 记录钥匙卡的位置来进行监控购买
 
@@ -21,8 +27,8 @@
 4. 修改代码中的环境变量为本机安装的位置
 ```
 # Tesseract 环境配置
-os.environ["LANGDATA_PATH"] = r"E:\Code\DeltaForce\tessdata-4.1.0\tessdata-4.1.0"
-os.environ["TESSDATA_PREFIX"] = r"E:\Code\DeltaForce\tessdata-4.1.0\tessdata-4.1.0"
+os.environ["LANGDATA_PATH"] = r"C:\Program Files\Tesseract-OCR\tessdata"
+os.environ["TESSDATA_PREFIX"] = r"C:\Program Files\Tesseract-OCR\tessdata"
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 ```
 
