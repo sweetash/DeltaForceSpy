@@ -136,7 +136,7 @@ def price_check_flow(card_info):
     position = card_info.get('position')
     pyautogui.moveTo(position[0]*screen_width, position[1]*screen_height)
     pyautogui.click()
-    time.sleep(0.05)  # 点击后等待 1 秒
+    time.sleep(0.05)  # 点击后等待 * 秒
     
     try:
         card_name = getCardName().strip()
