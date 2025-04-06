@@ -44,8 +44,9 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 python main.py
 ```
 F8开始抢卡,F9暂停抢卡,脚本已适配不同分辨率(16:9)以及多显示器的场景
-开始抢卡时需要将页面点击到买卡的区域,页面如下图的的部分钥匙坐标数据，在keys.json中的"id": "1-1",代表第一行第一个，根据不同需求修改其他数据即可。
+开始抢卡时需要将页面点击到买卡的区域,在keys.json中的"id": "1-1",代表第一行第一个，根据不同需求修改其他数据即可。
 
+成果展示：
 ![image](https://github.com/user-attachments/assets/a91f22c5-bbaa-4a2d-8957-8324ca5fbbfa)
 
 
