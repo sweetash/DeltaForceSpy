@@ -12,6 +12,7 @@
 
 ·设置购买的次数
 
+·修复由于OCR识别物品名字不准确导致无法购买的情况
 
 用户须知：
 
@@ -39,11 +40,14 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 ## 运行
 ```
+首次运行请修改keys.json文件，配置需要的购买的物品，运行时请勿打开导出的数据表，否则报错
 python main.py
 ```
 F8开始抢卡,F9暂停抢卡,脚本已适配不同分辨率(16:9)以及多显示器的场景
-开始抢卡时需要将页面点击到买卡的区域,如下图项目默认只配置了交易行>钥匙>巴克什 页面如下图的的部分钥匙坐标数据,
-![image](https://github.com/user-attachments/assets/b76727bc-d126-47a5-a3ed-964f9221d38c)
+开始抢卡时需要将页面点击到买卡的区域,页面如下图的的部分钥匙坐标数据，在keys.json中的"id": "1-1",代表第一行第一个，根据不同需求修改其他数据即可。
+
+![image](https://github.com/user-attachments/assets/a91f22c5-bbaa-4a2d-8957-8324ca5fbbfa)
+
 
 **如有其他地图的钥匙可以将钥匙添加到收藏，然后通过debug.py 记录钥匙卡的位置来进行监控购买**
 
