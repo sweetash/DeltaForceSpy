@@ -12,7 +12,7 @@
 免责声明
 脚本仅供学习和研究目的使用，作者不对因使用该脚本而导致的任何后果负责。使用该脚本的风险完全由用户自行承担。
 
-本脚本原创来自@sheldon1998：https://github.com/sheldon1998/DeltaForceKeyBot
+本脚本基于@sheldon1998大佬基础上进行修改：https://github.com/sheldon1998/DeltaForceKeyBot
 
 
 用户须知：
